@@ -1,10 +1,10 @@
-# Multi-Monitor Sleep Controller
+# Multi-Monitor Controller
 
-A Windows desktop application for controlling individual monitors without breaking Windows display topology. Supports DDC/CI hardware power commands, fullscreen blackout overlays, software dimming, OS-level output control, and system-tray brightness management — all designed to keep your windows exactly where they are.
+A Windows desktop application for controlling individual monitors without breaking Windows display topology. Supports DDC/CI hardware power commands, fullscreen blackout overlays, software dimming, OS-level output control, and system-tray brightness management.
 
 ## Why this exists
 
-Windows rearranges desktop windows whenever a monitor is disabled through its display topology APIs. This app avoids that entirely by using non-topology control paths:
+Windows rearranges desktop windows whenever a monitor is disabled through its display topology APIs. This app avoids that entirely by using non-topology control paths. Also convenient single-slider brightness adjustment with adjustable brightness offsets for each monitor.
 
 | Mode | What it does | Requires DDC/CI |
 |---|---|---|
