@@ -1,0 +1,29 @@
+# Build outputs
+[Bb]in/
+[Oo]bj/
+publish/
+artifacts/verify-build/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS / Rider
+.vs/
+.idea/
+*.rsuser
+
+# NuGet
+**/packages/
+*.nupkg
+**/[Pp]ackages/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# dotnet tool
+.dotnet/
